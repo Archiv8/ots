@@ -1,5 +1,18 @@
-# Maintainer: Adrián Pérez de Castro <aperez@igalia.com>
-# Maintainer: Caleb Maclennan <caleb@alerque.com>
+#!/bin/bash
+
+# Created from the original PKGBUILD by Caleb Maclennan <caleb@alerque.com> and drián Pérez de Castro <aperez@igalia.com>
+
+# Disable various shellcheck rules that produce false positives in this file.
+# Repository rules should be added to the .shellcheckrc file located in the
+# repository root directory, see https://github.com/koalaman/shellcheck/wiki
+# and https://archiv8.github.io for further information.
+# shellcheck disable=SC2034,SC2154
+# ToDo: Add files: User documentation
+# ToDo: Add files: Tooling
+# FixMe: Namcap warnings and errors
+
+# Maintainer: Ross Clark <https://github.com/Archiv8/ots/discussions>
+# Contributor: Ross Clark <https://github.com/Archiv8/ots/discussions>
 
 pkgname=ots
 pkgver=8.2.1
